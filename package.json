@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alestor123/GITHUB-ANNIVERSARY/issues"
   },
-  "homepage": "https://github.com/alestor123/GITHUB-ANNIVERSARY#readme"
+  "homepage": "https://github.com/alestor123/GITHUB-ANNIVERSARY#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
