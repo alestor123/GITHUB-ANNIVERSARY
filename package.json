@@ -4,7 +4,9 @@
   "description": "This is a simple code for getting github anniversary(when you started you life by signing up for github)",
   "main": "App.js",
   "scripts": {
-    "test": "standard && node test.js | tap-spec"
+    "test": "standard && node test.js | tap-spec",
+    "lint": "standard . --fix"
+
   },
   "repository": {
     "type": "git",
