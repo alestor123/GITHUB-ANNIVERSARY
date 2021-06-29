@@ -8,6 +8,9 @@
     "lint": "standard . --fix"
 
   },
+  "bin": {
+    "github-anniversary": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alestor123/GITHUB-ANNIVERSARY.git"
