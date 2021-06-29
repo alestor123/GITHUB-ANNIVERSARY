@@ -15,7 +15,7 @@ module.exports = async (username, token) => {
     date: pdate.toString(),
     pdate: pdate.toISOString().split('T')[0],
     isAnniversary: dayOfyear(dt) === dayOfyear(pdate),
-    diffDate: dayOfyear(pdate) - dayOfyear(dt) 
+    diffDate: dayOfyear(pdate) - dayOfyear(dt)
 
   }
 }
