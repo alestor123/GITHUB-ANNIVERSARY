@@ -13,7 +13,7 @@ module.exports = async (username, token) => {
     createdAt,
     on: ded.toString(),
     date: pdate.toString(),
-    pdate: pdate.toISOString().split('T')[0],
+    pdate: ded.toISOString().split('T')[0],
     isAnniversary: dayOfyear(dt) === dayOfyear(pdate),
     diffDate: dayOfyear(pdate) - dayOfyear(dt)
 
