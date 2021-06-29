@@ -1,4 +1,4 @@
-var ghn = require('./App');
+const ghn = require('./App');
 (async () => {
-console.log(await ghn('sindresorhus',process.env.GHTOKEN))
+  console.log(await ghn('sindresorhus', process.env.GHTOKEN))
 })()
