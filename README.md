@@ -1,3 +1,3 @@
-![badge](https://github.com/alestor123/GITHUB-ANNIVERSARY/actions/workflows/main.yml/badge.svg?branch=master)
+ <a href="https://npm.im/github-anniversary"><img src="https://badgen.net/npm/v/github-anniversary"></a><a href="https://packagephobia.now.sh/result?p=github-anniversary"><img src="https://packagephobia.now.sh/badge?p=github-anniversary"></a> <a href="https://bundlephobia.com/result?p=github-anniversary"><img src="https://badgen.net/bundlephobia/minzip/github-anniversary"></a> ![badge](https://github.com/alestor123/GITHUB-ANNIVERSARY/actions/workflows/main.yml/badge.svg?branch=master)
 # GITHUB-ANNIVERSARY
 > This is a simple code for getting github anniversary(when you started you life by signing up for github)
