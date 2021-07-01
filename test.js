@@ -9,7 +9,7 @@ tap.test('Error test', async t => {
   await t.rejects(ghn('sindresorhus'), { message: 'Enter a valid token' })
 })
 tap.test('Output test', async t => {
-  const main = (await ghn('sindresorhus', process.env.GHTOKEN))
+  const main = (await ghn('sindresorhus', process.env.GHTOKEN)) // dont know why i used sindresorhus
   t.equal(typeof main.isAnniversary, 'boolean')
   t.equal(typeof main.on, 'string')
   t.not(new Date(main.on), 'Invalid Date')
